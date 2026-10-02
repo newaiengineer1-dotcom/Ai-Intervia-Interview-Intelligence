@@ -1,0 +1,21 @@
+{
+  "project": "Intervia Interview Intelligence",
+  "release_date": "2026-10-02",
+  "python": "3.12",
+  "architecture": "Streamlit + modular multi-agent Groq gateway",
+  "ui": {
+    "combined_interview_setup_tab": "Interview categories and Interview mode",
+    "industry_ui_removed": true,
+    "premium_dark_dashboard": true
+  },
+  "agents": [
+    "GroqGateway",
+    "EvidenceAgent",
+    "ResearchAgent",
+    "StrategyAgent",
+    "InterviewerAgent",
+    "CoachAgent"
+  ],
+  "validation": "verify_project.py + py_compile + deterministic regression checks",
+  "runtime_validation_note": "External dependency installation and real Groq/Streamlit Cloud execution require network access and a real project API key."
+}

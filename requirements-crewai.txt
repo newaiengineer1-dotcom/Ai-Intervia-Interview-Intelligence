@@ -1,0 +1,3 @@
+# Optional CrewAI adapter for hackathon/demo orchestration.
+# Core app intentionally does not require CrewAI at runtime.
+crewai==1.15.22
